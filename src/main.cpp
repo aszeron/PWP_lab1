@@ -10,7 +10,7 @@ int main()
 {
 	double result;
 	#ifdef USE_TRIGONOMETRY_DEGREE
-	cos_degree(45.0);
+	result = cos_degree(45.0);
 	#else
 	result = cos(M_PI/4.0);
 	#endif
